@@ -20,7 +20,10 @@ const Index = () => {
                 </a>                
                   <a href="http://49.204.64.212/ace" className="butn-gr rounded buton">
                     <span>Access Server 2</span>
-                  </a>                
+                  </a>
+                  <a href="http://172.150.1.6/ace" className="butn-gr rounded buton">
+                    <span>Access Server 3</span>
+                  </a>              
                 </div>                
             </div>
           </div>

@@ -287,8 +287,15 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .buton.rounded {
   border-radius: 30px !important;  
   margin-right: 15px;
+  margin-top: 15px;
 }
 
+@media screen and (max-width: 768px) {      
+      .buton.rounded:nth-of-type(3) {
+        display: none;
+      }
+    }
+    
 .buton .icon svg {
   position: relative;
   width: 15px;
