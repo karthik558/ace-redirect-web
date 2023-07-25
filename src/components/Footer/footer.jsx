@@ -18,7 +18,7 @@ const Footer2 = () => {
               <ul>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Report Bugs</a>
+                  <a href="https://karthiklal.in/contact.html">Report Bugs</a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
@@ -41,7 +41,7 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://github.com/karthik558/ace-financials">Site Source</a>
+                  <a href="https://github.com/karthik558/redirect-website">Site Source</a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
@@ -56,7 +56,7 @@ const Footer2 = () => {
               <div className="info">
                 <span>Email Address</span>
                 <h6>
-                  <a href="mailto:itklr@thepaul.in">support@paul.in</a>
+                  <a href="mailto:itklr@thepaul.in">support@thepaul.in</a>
                 </h6>
               </div>
               <div className="social mt-30">
@@ -68,6 +68,9 @@ const Footer2 = () => {
                 </a>
                 <a href="https://github.com/karthik558">
                   <i className="fab fa-github"></i>
+                </a>
+                <a href="https://x.com/_karthiklal">
+                  <i className="fab fa-twitter"></i>
                 </a>
               </div>
             </div>

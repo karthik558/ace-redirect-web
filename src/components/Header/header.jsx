@@ -1,6 +1,6 @@
 import React from "react";
 
-const Index = () => {
+const Header = () => {
   return (
     <section id="home">
     <header className="mobile-app valign">
@@ -9,10 +9,10 @@ const Index = () => {
           <div className="col-lg-6 valign">
             <div className="caption">
               <h1 className="mb-20">
-                Ace Financials & HR Payroll
+                Ace Redirect Portal (For Paul Resorts)
               </h1>
               <p>
-                  Welcome to Ace Financials & HR Portal. Access either server. Use server 2 if server 1 is unavailable.
+                  Welcome to Ace Financials & HR Redirect Portal. Access either server. Use server 2 if server 1 is unavailable.
               </p>
               <div className="butons mt-50">
                 <a href="http://182.156.77.204/ace" className="butn-gr rounded buton">
@@ -39,4 +39,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Header;
