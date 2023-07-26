@@ -1,10 +1,10 @@
 :root {
   --background-grey: #202123;
-  --background-dark: #1e1f21;
-  --backgroundDark: #0f0f1e;
-  --white: #fff;
-  --primary: #f4e39a;
-  --secondary: #03437e;
+  --background-dark: #1E1F21;
+  --backgroundDark: #0F0F1E;
+  --white: #FFF;
+  --primary: #4187DF;
+  --secondary: #B2E46B;
 }
 
 body {

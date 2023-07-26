@@ -7,11 +7,11 @@
 
 :root {
   --background-grey: #202123;
-  --background-dark: #1e1f21;
-  --backgroundDark: #0f0f1e;
-  --white: #fff;
-  --primary: #03437e;
-  --secondary: #c9d6f1;
+  --background-dark: #1E1F21;
+  --backgroundDark: #0F0F1E;
+  --white: #FFF;
+  --primary: #4187DF;
+  --secondary: #B2E46B;
 }
 
 * {
@@ -45,7 +45,7 @@ img {
 }
 
 .img-header img {
-  width: 150%;
+  width: 105%;
   height: auto;
 }
 
@@ -6914,4 +6914,20 @@ section.next-prog.section-padding {
   a.col-md-12.popimg {
     padding: 0;
   }
+}
+
+.img-header__image {
+  transition: transform 0.5s ease-in-out;
+}
+
+.img-header__image--animate {
+  transform: translateX(-100%);
+}
+
+.img-header__image {
+  transition: transform 0.5s ease-in-out;
+}
+
+.img-header__image--animate {
+  transform: translateX(-100%);
 }
