@@ -5,7 +5,6 @@ const ScrollingImage = () => {
     '/img/header-image-1.png',
     '/img/header-image-2.png',
     '/img/header-image-3.png',
-    '/img/header-image-4.png',
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

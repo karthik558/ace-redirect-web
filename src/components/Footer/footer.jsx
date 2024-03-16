@@ -6,9 +6,9 @@ const Footer2 = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6">
-            <div className="item-clumn our md-mb50">
+            <div className="item-clumn our md-mb50">              
               <a href="https://acefinancials.com/" className="logo-brand mb-40">
-                <img src="/img/logo/logo-footer.png" alt="" />
+                <img src="/img/logo/logo-footer.png" alt="Ace Financials" />
               </a>
             </div>
           </div>
@@ -22,7 +22,7 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Site Map</a>
+                  <a href="https://karthiklal.in/portfolio.html">Developer Folio</a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
@@ -41,7 +41,7 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://github.com/karthik558/redirect-website">Site Source</a>
+                  <a href="https://github.com/karthik558/">Site Source</a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
@@ -56,7 +56,7 @@ const Footer2 = () => {
               <div className="info">
                 <span>Email Address</span>
                 <h6>
-                  <a href="mailto:itklr@thepaul.in">support@thepaul.in</a>
+                  <a href="mailto:itcwr@thepaul.in">support@thepaul.in</a>
                 </h6>
               </div>
               <div className="social mt-30">
@@ -83,7 +83,7 @@ const Footer2 = () => {
             <div className="col-12">
               <div className="text-center">
                 <p>
-                  © 2023. Designed & Developed by{" "}
+                  © 2024. Designed & Developed by{" "}
                   <a href="https://karthiklal.in">KARTHIK LAL.</a> All right
                   reserved.
                 </p>

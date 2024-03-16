@@ -19,8 +19,7 @@ const LoadingScreen = () => {
   return (
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
-        <div className="loading">
-          {/* <img src="/img/logo/logo-light.png" alt="CherishOS Logo" /> */}
+        <div className="loading">          
         </div>
         <div id="preloader"></div>
       </div>

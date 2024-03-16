@@ -10,8 +10,8 @@
   --background-dark: #1E1F21;
   --backgroundDark: #0F0F1E;
   --white: #FFF;
-  --primary: #4187DF;
-  --secondary: #B2E46B;
+  --primary: #764BA2;
+  --secondary: #667EEA;
 }
 
 * {
@@ -40,8 +40,7 @@ body {
 
 img {
   width: 130%;
-  height: auto;
-  /* margin-top: 20px; */
+  height: auto;  
 }
 
 .img-header img {
@@ -6930,4 +6929,13 @@ section.next-prog.section-padding {
 
 .img-header__image--animate {
   transform: translateX(-100%);
+}
+
+/* Set the image size to 50% of its original size */
+.img-header {
+  margin-left: 7rem;
+  width: 68%;
+  height: 68%;
+  object-fit: cover;
+  object-position: center;
 }

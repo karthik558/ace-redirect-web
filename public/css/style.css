@@ -3,8 +3,8 @@
   --background-dark: #1E1F21;
   --backgroundDark: #0F0F1E;
   --white: #FFF;
-  --primary: #4187DF;
-  --secondary: #B2E46B;
+  --primary: #764BA2;
+  --secondary: #667EEA;
 }
 
 body {
@@ -1415,7 +1415,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   border-radius: 3px;
   color: var(--white);
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 1.5s ease;
 }
 
 .pagination button:hover {
