@@ -41,7 +41,7 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://github.com/karthik558/">Site Source</a>
+                  <a href="https://github.com/karthik558/ace-redirect-web">Site Source</a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
