@@ -15,11 +15,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="Android, OpenSource, Custom ROM, CherishOS"
+            content="ACE FINANCIAL, WEB-APP, ACE-APP, MOBILE-APP"
           />
           <meta
             name="description"
-            content="CherishOS - Is a custom ROM based on AOSP, with some extra cherry-picks from a lot of different ROMs/Projects. We wanted to create a ROM, which we can call as an Android OS with minimal bugs and a lot of features."
+            content="This repository contains the source code for the Ace Redirect Web Application, which is available only for Android devices and PC's The app is designed to offer a seamless user experience and provide easy access to all of the services offered by Ace Financials Software."
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/logo/favicon.png" />
