@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>ERROR 404 ! ACE</title>
+        <title>Redirect Portal | ACE</title>
         <link rel="icon" href="/img/favicon.png" />
       </Head>
       <Cursor />

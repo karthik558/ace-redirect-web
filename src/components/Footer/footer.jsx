@@ -6,7 +6,7 @@ const Footer2 = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6">
-            <div className="item-clumn our md-mb50">              
+            <div className="item-clumn our md-mb50">
               <a href="https://acefinancials.com/" className="logo-brand mb-40">
                 <img src="/img/logo/logo-footer.png" alt="Ace Financials" />
               </a>
@@ -24,10 +24,6 @@ const Footer2 = () => {
                   <span className="icon pe-7s-angle-right"></span>
                   <a href="https://karthiklal.in">Developer Folio</a>
                 </li>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Privacy Policy</a>
-                </li>
               </ul>
             </div>
           </div>
@@ -42,10 +38,6 @@ const Footer2 = () => {
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
                   <a href="https://github.com/karthik558/ace-redirect-web">Site Source</a>
-                </li>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://karthiklal.in/contact.html">Quick Help</a>
                 </li>
               </ul>
             </div>
@@ -62,7 +54,7 @@ const Footer2 = () => {
               <div className="social mt-30">
                 <a href="https://facebook.com/karthiklal0">
                   <i className="fab fa-facebook-f"></i>
-                </a>                
+                </a>
                 <a href="https://instagram.com/_karthiklal">
                   <i className="fab fa-instagram"></i>
                 </a>
@@ -84,8 +76,7 @@ const Footer2 = () => {
               <div className="text-center">
                 <p>
                   © 2024. Designed & Developed by{" "}
-                  <a href="https://karthiklal.in">KARTHIK LAL.</a> All right
-                  reserved.
+                  <a href="https://karthiklal.in">KARTHIK LAL.</a>
                 </p>
               </div>
             </div>

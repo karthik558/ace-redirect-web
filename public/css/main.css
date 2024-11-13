@@ -7,11 +7,11 @@
 
 :root {
   --background-grey: #202123;
-  --background-dark: #1E1F21;
-  --backgroundDark: #0F0F1E;
-  --white: #FFF;
-  --primary: #764BA2;
-  --secondary: #667EEA;
+  --background-dark: #1e1f21;
+  --backgroundDark: #0f0f1e;
+  --white: #fff;
+  --primary: #3e5151;
+  --secondary: #decba4;
 }
 
 * {
@@ -40,7 +40,7 @@ body {
 
 img {
   width: 130%;
-  height: auto;  
+  height: auto;
 }
 
 .img-header img {
@@ -66,7 +66,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .screenshot {    
+  .screenshot {
     padding: 0px 20px;
   }
 }
@@ -140,11 +140,13 @@ span:hover {
 }
 
 .color-font {
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -153,11 +155,13 @@ span:hover {
 }
 
 .back-color {
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -167,11 +171,13 @@ span:hover {
   position: absolute;
   height: 1px;
   width: 65%;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -1013,11 +1019,13 @@ span:hover {
   height: 100%;
   width: 100%;
   background: var(--secondary);
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -1599,11 +1607,13 @@ span:hover {
   text-transform: uppercase;
   letter-spacing: 4px;
   display: inline-block;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -1700,11 +1710,13 @@ span:hover {
 }
 
 .butn.color {
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -2053,7 +2065,7 @@ span:hover {
   transition: all 0.5s cubic-bezier(1, 0, 0.55, 1);
 }
 
-.hamenu.open .menu-links .main-menu>li .link {
+.hamenu.open .menu-links .main-menu > li .link {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
@@ -2093,7 +2105,7 @@ span:hover {
   z-index: 2;
 }
 
-.hamenu .menu-links .main-menu.gosub>li {
+.hamenu .menu-links .main-menu.gosub > li {
   opacity: 0;
   visibility: hidden;
   -webkit-transition-delay: 0.2s !important;
@@ -2101,7 +2113,7 @@ span:hover {
   transition-delay: 0.2s !important;
 }
 
-.hamenu .menu-links .main-menu.gosub>li .link {
+.hamenu .menu-links .main-menu.gosub > li .link {
   -webkit-transform: translateY(45px) !important;
   -ms-transform: translateY(45px) !important;
   transform: translateY(45px) !important;
@@ -2118,7 +2130,7 @@ span:hover {
   visibility: visible !important;
 }
 
-.hamenu .menu-links .main-menu>li {
+.hamenu .menu-links .main-menu > li {
   font-size: 30px;
   font-weight: 600;
   padding: 10px;
@@ -2132,13 +2144,13 @@ span:hover {
   transition: all 0.5s;
 }
 
-.hamenu .menu-links .main-menu>li span.nm {
+.hamenu .menu-links .main-menu > li span.nm {
   opacity: 0.8;
   font-size: 11px;
   margin-right: 10px;
 }
 
-.hamenu .menu-links .main-menu>li .link {
+.hamenu .menu-links .main-menu > li .link {
   -webkit-transform: translateY(45px);
   -ms-transform: translateY(45px);
   transform: translateY(45px);
@@ -2148,7 +2160,7 @@ span:hover {
   cursor: pointer;
 }
 
-.hamenu .menu-links .main-menu>li .link i {
+.hamenu .menu-links .main-menu > li .link i {
   font-size: 15px;
   margin-left: 5px;
 }
@@ -2309,7 +2321,12 @@ span:hover {
   transform: translateY(0);
 }
 
-.slider .parallax-slider .swiper-slide-active .caption h1[data-splitting] .char {
+.slider
+  .parallax-slider
+  .swiper-slide-active
+  .caption
+  h1[data-splitting]
+  .char {
   -webkit-animation: fadeInUp 0.5s cubic-bezier(0.3, 0, 0.7, 1) both;
   animation: fadeInUp 0.5s cubic-bezier(0.3, 0, 0.7, 1) both;
   -webkit-animation-delay: calc(60ms * var(--char-index));
@@ -2610,11 +2627,13 @@ span:hover {
   left: -5px;
   right: -5px;
   bottom: -5px;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -2727,11 +2746,13 @@ span:hover {
   bottom: -1px;
   right: -1px;
   border-radius: 5px;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -2804,11 +2825,13 @@ span:hover {
 
 .freelancre .img:after {
   content: "";
-  background: -webkit-gradient(linear,
-      right top,
-      left top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(right, var(--secondary), var(--primary));
   background: -o-linear-gradient(right, var(--secondary), var(--primary));
   background: linear-gradient(to left, var(--secondary), var(--primary));
@@ -2882,15 +2905,21 @@ span:hover {
   line-height: 65px;
   text-align: center;
   border-radius: 5px;
-  background: -webkit-linear-gradient(323.53deg,
-      #18191d 6.69%,
-      rgba(4, 4, 5, 0.1) 85.43%);
-  background: -o-linear-gradient(323.53deg,
-      #18191d 6.69%,
-      rgba(4, 4, 5, 0.1) 85.43%);
-  background: linear-gradient(126.47deg,
-      #18191d 6.69%,
-      rgba(4, 4, 5, 0.1) 85.43%);
+  background: -webkit-linear-gradient(
+    323.53deg,
+    #18191d 6.69%,
+    rgba(4, 4, 5, 0.1) 85.43%
+  );
+  background: -o-linear-gradient(
+    323.53deg,
+    #18191d 6.69%,
+    rgba(4, 4, 5, 0.1) 85.43%
+  );
+  background: linear-gradient(
+    126.47deg,
+    #18191d 6.69%,
+    rgba(4, 4, 5, 0.1) 85.43%
+  );
   font-size: 30px;
 }
 
@@ -3170,7 +3199,10 @@ span:hover {
   opacity: 1;
 }
 
-.arch-slider .setting .swiper-pagination-bullets .swiper-pagination-bullet-active {
+.arch-slider
+  .setting
+  .swiper-pagination-bullets
+  .swiper-pagination-bullet-active {
   background: var(--white);
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
@@ -3999,11 +4031,13 @@ span:hover {
   left: -1px;
   bottom: -1px;
   right: -1px;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -4378,11 +4412,13 @@ span:hover {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -4396,20 +4432,20 @@ span:hover {
   margin-bottom: 10px;
 }
 
-.services .rone>div {
+.services .rone > div {
   position: relative;
 }
 
-.services .rone>div:nth-of-type(2) {
+.services .rone > div:nth-of-type(2) {
   margin-bottom: -50px;
   margin-top: auto;
 }
 
-.services .rtwo>div {
+.services .rtwo > div {
   position: relative;
 }
 
-.services .rtwo>div:nth-of-type(2) {
+.services .rtwo > div:nth-of-type(2) {
   margin-bottom: -50px;
   margin-top: auto;
 }
@@ -4505,11 +4541,13 @@ span:hover {
 
 .services .step-item .icon {
   color: var(--secondary);
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -4586,11 +4624,13 @@ span:hover {
   left: -1px;
   bottom: -1px;
   right: 0px;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -4954,11 +4994,13 @@ span:hover {
   width: 0;
   top: 0;
   left: 0;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -5055,11 +5097,13 @@ span:hover {
   left: 0;
   right: 0;
   bottom: 5px;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -5130,11 +5174,13 @@ span:hover {
   left: 0;
   right: 0;
   bottom: 5px;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(var(--secondary)),
-      to(var(--primary)));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--secondary)),
+    to(var(--primary))
+  );
   background: -webkit-linear-gradient(left, var(--secondary), var(--primary));
   background: -o-linear-gradient(left, var(--secondary), var(--primary));
   background: linear-gradient(to right, var(--secondary), var(--primary));
@@ -5517,20 +5563,28 @@ span:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.2)),
-      to(rgba(43, 47, 53, 0.7)));
-  background-image: -webkit-linear-gradient(bottom,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(43, 47, 53, 0.7) 100%);
-  background-image: -o-linear-gradient(bottom,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(43, 47, 53, 0.7) 100%);
-  background-image: linear-gradient(to top,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(43, 47, 53, 0.7) 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 0.2)),
+    to(rgba(43, 47, 53, 0.7))
+  );
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(43, 47, 53, 0.7) 100%
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(43, 47, 53, 0.7) 100%
+  );
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(43, 47, 53, 0.7) 100%
+  );
   background-repeat: repeat-x;
 }
 
@@ -6142,8 +6196,8 @@ footer .item .copy-right p a {
     padding: 120px 0;
   }
 
-  .services .rtwo>div:nth-of-type(2),
-  .services .rone>div:nth-of-type(2) {
+  .services .rtwo > div:nth-of-type(2),
+  .services .rone > div:nth-of-type(2) {
     margin-bottom: 0px;
   }
 
@@ -6313,7 +6367,7 @@ footer .item .copy-right p a {
     width: 40px;
   }
 
-  .hamenu .menu-links .main-menu>li {
+  .hamenu .menu-links .main-menu > li {
     font-size: 24px;
   }
 
@@ -6608,7 +6662,7 @@ footer .item .copy-right p a {
     display: none;
   }
 
-  .hamenu .menu-links .main-menu>li {
+  .hamenu .menu-links .main-menu > li {
     font-size: 20px;
     padding: 7px;
   }
@@ -6928,8 +6982,8 @@ section.next-prog.section-padding {
 /* Set the image size to 50% of its original size */
 .img-header {
   margin-left: 7rem;
-  width: 68%;
-  height: 68%;
+  width: 75%;
+  height: 75%;
   object-fit: cover;
   object-position: center;
 }

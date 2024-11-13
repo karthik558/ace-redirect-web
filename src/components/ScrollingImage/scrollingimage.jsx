@@ -3,8 +3,7 @@ import React, { useState, useEffect } from 'react';
 const ScrollingImage = () => {
   const imageUrls = [
     '/img/header-image-1.png',
-    '/img/header-image-2.png',
-    '/img/header-image-3.png',
+    '/img/header-image-2.png'
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
