@@ -13,19 +13,19 @@ const Header = () => {
                   Ace Redirect Portal (For Paul Resorts)
                 </h1>
                 <p>
-                  Welcome to Ace Financials & HR Redirect Portal. Access either server. Use server 2 if server 1 is unavailable.
+                  Welcome to Ace Financials Redirect Portal. Access Login and Approval pages below.
                 </p>
                 <div className="butons mt-50">
-                  <a href="http://182.156.77.204/ace" className="butn-gr rounded buton">
-                    <span>Access Server 1</span>
+                  <a href="http://182.156.77.204/ace/Default.aspx" className="butn-gr rounded buton">
+                    <span>Login Page</span>
                   </a>
-                  <a href="http://172.150.1.6/ace" className="butn-gr rounded buton">
-                    <span>Access Server 2</span>
+                  <a href="http://182.156.77.204/ace/Approval.aspx" className="butn-gr rounded buton">
+                    <span>Approval Page</span>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 offset-lg-1">              
+            <div className="col-lg-5 offset-lg-1">
               <ScrollingImage />
             </div>
           </div>

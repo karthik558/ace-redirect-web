@@ -22,7 +22,7 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="https://karthiklal.in/portfolio.html">Developer Folio</a>
+                  <a href="https://karthiklal.in">Developer Folio</a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
@@ -60,7 +60,7 @@ const Footer2 = () => {
                 </h6>
               </div>
               <div className="social mt-30">
-                <a href="https://facebook.com/karthik5588">
+                <a href="https://facebook.com/karthiklal0">
                   <i className="fab fa-facebook-f"></i>
                 </a>                
                 <a href="https://instagram.com/_karthiklal">
