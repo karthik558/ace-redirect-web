@@ -16,10 +16,10 @@ const Header = () => {
                   Welcome to Ace Financials Redirect Portal. Access Login and Approval pages below.
                 </p>
                 <div className="butons mt-50">
-                  <a href="http://182.156.77.204/ace/Default.aspx" className="butn-gr rounded buton">
+                  <a href="http://182.156.77.204/ace/Default.aspx" className="butn-gr rounded buton" target="_blank" rel="noopener noreferrer">
                     <span>Login Page</span>
                   </a>
-                  <a href="http://182.156.77.204/ace/Approval.aspx" className="butn-gr rounded buton">
+                  <a href="http://182.156.77.204/ace/Approval.aspx" className="butn-gr rounded buton" target="_blank" rel="noopener noreferrer">
                     <span>Approval Page</span>
                   </a>
                 </div>
