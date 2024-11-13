@@ -29,28 +29,28 @@ const NavBar = ({ lr, nr, theme }) => {
   };
 
   return (
-    <nav
+    (<nav
       ref={nr}
       className={`navbar navbar-expand-lg change ${theme === "themeL" ? "light" : ""
         } ${showNavbar ? "show" : "hide"}`}
     >
       <div className="container">
-        <Link href="/">
-          <a className="logo">
-            {theme ? (
-              theme === "themeL" ? (
-                <img ref={lr} src={appData.darkLogo} alt="logo" />
-              ) : (
-                <img ref={lr} src={appData.lightLogo} alt="logo" />
-              )
+        <Link href="/" className="logo">
+
+          {theme ? (
+            theme === "themeL" ? (
+              <img ref={lr} src={appData.darkLogo} alt="logo" />
             ) : (
               <img ref={lr} src={appData.lightLogo} alt="logo" />
-            )}
-          </a>
+            )
+          ) : (
+            <img ref={lr} src={appData.lightLogo} alt="logo" />
+          )}
+
         </Link>
         {/* Add your other navigation links here */}
       </div>
-    </nav>
+    </nav>)
   );
 };
 
