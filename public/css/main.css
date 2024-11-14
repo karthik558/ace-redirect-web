@@ -1915,6 +1915,12 @@ span:hover {
   width: 50px;
 }
 
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
+
 .nav-scroll {
   background: rgba(23, 24, 27, 0.9);
   border-color: #333538;
